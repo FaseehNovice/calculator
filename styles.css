@@ -16,7 +16,6 @@ body{
 
 #display-section{
     display: flex;
-    
     width: auto;
     height: 15vh;
     padding: 8px  4px;
@@ -29,8 +28,16 @@ body{
     width: 40vh;
     height: 12vh;
     margin: 4px;
-    margin-top: 12px;
+    margin-top: 16px;
+    padding-right: 12px;
+    padding-bottom: 8px;
     background-image: linear-gradient(rgb(114, 112, 112), rgba(22, 22, 22, 0.562));
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2.4em;
+    font-weight: 900;
+    color: white;
 }
 
 #btn-section{
@@ -56,6 +63,6 @@ button{
     color: white;
 }
 #clear{
-    background-color: rgb(187, 44, 44);
+    background-image: linear-gradient(red, darkred);
     color: white;
 }
