@@ -3,6 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 10vh;
+    background-color: darkgray;
 }
 #calculator{
     display: flex;
